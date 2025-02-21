@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: antiquewhite;
+    background-color: #2f348e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botones a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(140, 154, 154);
+}
+
+footer {
+    background-color: #1e2161;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
