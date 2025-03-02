@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="./assets/style/ejercicio2.css">
   </head>
   <body>
     <header>
@@ -14,16 +15,29 @@
             <p>Agrega hasta 10 stickers a tu carrito.</p>
         </div>
       <section>
-        <div>
+        <div class="card">
           <img src="./assets/img/ejercicio2a.png" alt="" />
+          <input class="sticker1" maxlength="1" pattern="[0-9]" type="text" title="cantidad"  placeholder="Ingrese cantidad">
         </div>
-        <div>
+        <div class="card">
           <img src="./assets/img/ejercicio2b.png" alt="" />
+          <input class="sticker2" maxlength="1" pattern="[0-9]" type="text" title="cantidad"  placeholder="Ingrese cantidad">
         </div>
-        <div>
+        <div class="card">
           <img src="./assets/img/ejercicio2c.png" alt="" />
+          <input class="sticker3" maxlength="1" pattern="[0-9]" type="text" title="cantidad"  placeholder="Ingrese cantidad">
         </div>
       </section>
+      <section>
+        <p class="resultadoCompra"></p>
+      </section>
+      <section>
+        <a href="./index.html">
+        <button>Volver al menú</button>
+        </a>
+      </section>
+    <script src="./assets/js/ejercicio2.js">
+    </script>
     </main>
   </body>
 </html>
